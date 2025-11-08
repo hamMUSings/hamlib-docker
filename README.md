@@ -9,7 +9,7 @@ Edit the [docker-compose.yaml](https://github.com/hamMUSings/hamlib-docker/blob/
   - Replace /dev/ttyUSB1 with the serial port connected to the radio
 
 > [!WARNING]
-> Make sure to leave the :/dev/ttyUSB0 part of the line! /path/to/your/derial/device:/dev/ttyUSB0 
+> Make sure to leave the :/dev/ttyUSB0 part of the line!     /path/to/your/derial/device:/dev/ttyUSB0 
 
 ### Launch
 ```
