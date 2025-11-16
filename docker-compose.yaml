@@ -7,6 +7,8 @@ services:
     environment:
       - MODEL=1
       - BAUD=38400
+      - AUTO_POWER_ON=0
+      - AUTO_POWER_OFF=0
     devices:
       - /dev/ttyUSB1:/dev/ttyUSB0
     restart: unless-stopped
